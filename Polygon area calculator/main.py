@@ -41,7 +41,3 @@ class Square(Rectangle):
     def __str__(self):
         return f"Square(side={self.width})"
 
-
-rect = Rectangle(3,6)
-print(rect.get_diagonal())
-print(Rectangle(15,10).get_amount_inside(Square(5)))
